@@ -148,6 +148,13 @@
     height: 46px;
 }
 
+.yacht-rental-link:hover,
+.yacht-rental-link:focus {
+    color: #1B414B;
+    background-color: #FBFBFB;
+
+}
+
 @media screen and (min-width: 320px) {
     .container {
         max-width: 375px;
