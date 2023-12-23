@@ -1,0 +1,183 @@
+.our-yachts {
+    background-color: #0E1823;
+    
+}
+
+.container {
+    max-width: 320px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.our-yachts-title {
+    color: #FBFBFB;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    margin-top: auto; 
+    margin-bottom: 40px;
+}
+
+.list-our {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.item-hero-our {
+    background-color: #FBFBFB;
+    border-radius: 24px;
+}
+
+.yacht-our-container-img {
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 33px;
+    /* object-fit: cover; */
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.title-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 32px;
+    margin-bottom: 32px;
+}
+
+.describe-title{
+color: #1B414B;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.2; 
+letter-spacing: -0.045em;
+text-transform: uppercase;
+
+}
+.format-title{
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: -0.045em;
+text-transform: uppercase;
+}
+
+.describe-text{
+font-size: 13px;
+font-weight: 400;
+line-height: 1.18;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.describe-box {
+    display: inline-flex;
+    align-items: flex-start;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 114px;
+
+}
+
+
+.describe-list-left {
+    /* padding-left: 32px; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+
+}
+
+.list-left-item {
+    /* color: #040306; */
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.describe-list-right {
+    /* padding-right: 32px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 6px;
+
+}
+
+.list-right-item {
+color: #040306;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.18;
+letter-spacing: 0.03em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.yacht-rental-link {
+    display: inline-flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 14px 32px;
+    border-radius: 15px;
+    border: 1px solid rgba(251, 251, 251, 0.35);
+    color: #FBFBFB;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    text-align: center;
+    background-color: #0E1823;
+    width: 141px;
+    height: 46px;
+}
+
+@media screen and (min-width: 320px) {
+    .container {
+        max-width: 375px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .container {
+        width: 1158px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
