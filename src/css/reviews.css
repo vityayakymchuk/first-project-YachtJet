@@ -1,3 +1,4 @@
+/*------------------/MOBILE REVIEWS STYLE---------------*/
 .content-reviews {
   max-width: 375px;
   margin-left: auto;
@@ -12,12 +13,14 @@
 }
 .content-reviews-first {
   max-width: 335px;
-  text-align: center;
   color: var(--color-light);
   font-size: 28px;
+  text-align: center;
   font-weight: 500;
   line-height: 1;
   letter-spacing: -0.02em;
+  padding-right: 9px;
+  padding-left: 9px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 25px;
@@ -26,9 +29,10 @@
   color: var(--color-light);
   text-align: center;
   font-size: 12px;
-  font-weight: 400;
   line-height: 1.17;
   letter-spacing: -0.02em;
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 40px;
 }
 
@@ -46,7 +50,6 @@
 .name-paragraf {
   display: flex;
   flex-direction: column;
-  text-align: center;
   gap: 8px;
 }
 .avatar-name {
@@ -59,9 +62,8 @@
 }
 .avatar-paragraf {
   width: 303px;
+  text-align: center;
   color: rgba(4, 3, 6, 0.4);
-  font-size: 16px;
-  font-weight: 400;
   line-height: 1.4;
   letter-spacing: -0.02em;
 }
@@ -72,14 +74,53 @@
   display: none;
 }
 
-/*------------------/MOBILE STYLE---------------*/
+/*------------------/MOBILE REVIEWS STYLE---------------*/
+
+/*------------------TABLET REVIEWS STYLE---------------*/
 @media screen and (min-width: 768px) {
-  .container {
-    width: 768px;
+  .content-reviews {
+    max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
   }
+  .reviews-item-second {
+    display: flex;
+  }
+  .reviews {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
   .content-reviews-first {
-    width: 704px;
+    max-width: 704px;
+    font-size: 48px;
+  }
+  .content-reviews-paragraf {
+    max-width: 571px;
+    font-size: 14px;
+    line-height: 1.29;
+    margin-bottom: 75px;
+  }
+  .reviews-groupe-item {
+    display: flex;
+    gap: 32px;
   }
 }
+/*------------------/TABLET REVIEWS STYLE---------------*/
+/*------------------DESKTOP REVIEWS STYLE---------------*/
+@media screen and (min-width: 1158px) {
+  .content-reviews {
+    max-width: 1158px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .reviews-item-third {
+    display: flex;
+  }
+  .reviews {
+    padding-top: 76px;
+  }
+  .content-reviews-first {
+    max-width: 854px;
+  }
+}
+/*------------------/DESKTOP REVIEWS STYLE---------------*/
