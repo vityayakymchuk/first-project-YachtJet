@@ -4,5 +4,8 @@
   --color-dark-green: #1b414b;
   --color-light: #fbfbfb;
   --text-color: rgba(4, 3, 6, 0.4);
-  --color-lines: #fbfbfb1a;
+  --stroke-burger: #2F2F37;
+  --header-menu-link: rgba(27, 65, 75, 0.50);
+  --header-menu-link-hover: #062730;
+  --backdrop-hover-social-link: rgba(251, 251, 251, 0.8);
 }
