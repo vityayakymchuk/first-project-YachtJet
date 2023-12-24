@@ -1,0 +1,126 @@
+/*------------------/MOBILE REVIEWS STYLE---------------*/
+.content-reviews {
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reviews {
+  display: block;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: var(--color-light-dark);
+}
+.content-reviews-first {
+  max-width: 335px;
+  color: var(--color-light);
+  font-size: 28px;
+  text-align: center;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  padding-right: 9px;
+  padding-left: 9px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+}
+.content-reviews-paragraf {
+  color: var(--color-light);
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 40px;
+}
+
+.reviews-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 8px;
+  gap: 24px;
+  border-radius: 24px;
+  background-color: var(--color-light);
+}
+
+.name-paragraf {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.avatar-name {
+  color: var(--color-dark);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+.avatar-paragraf {
+  width: 303px;
+  text-align: center;
+  color: rgba(4, 3, 6, 0.4);
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+}
+.reviews-item-second {
+  display: none;
+}
+.reviews-item-third {
+  display: none;
+}
+
+/*------------------/MOBILE REVIEWS STYLE---------------*/
+
+/*------------------TABLET REVIEWS STYLE---------------*/
+@media screen and (min-width: 768px) {
+  .content-reviews {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .reviews-item-second {
+    display: flex;
+  }
+  .reviews {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+  .content-reviews-first {
+    max-width: 704px;
+    font-size: 48px;
+  }
+  .content-reviews-paragraf {
+    max-width: 571px;
+    font-size: 14px;
+    line-height: 1.29;
+    margin-bottom: 75px;
+  }
+  .reviews-groupe-item {
+    display: flex;
+    gap: 32px;
+  }
+}
+/*------------------/TABLET REVIEWS STYLE---------------*/
+/*------------------DESKTOP REVIEWS STYLE---------------*/
+@media screen and (min-width: 1158px) {
+  .content-reviews {
+    max-width: 1158px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .reviews-item-third {
+    display: flex;
+  }
+  .reviews {
+    padding-top: 76px;
+  }
+  .content-reviews-first {
+    max-width: 854px;
+  }
+}
+/*------------------/DESKTOP REVIEWS STYLE---------------*/
