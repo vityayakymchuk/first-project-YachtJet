@@ -74,6 +74,11 @@
         background-color: var(--color-dark-green);
     }
 
+
+    .header-menu-link.selected {
+        background-color: var(--color-dark-green);
+    }
+
     .header-menu-icon-wrapper {
         display: flex;
         justify-content: center;
