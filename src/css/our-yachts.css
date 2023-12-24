@@ -1,4 +1,3 @@
-
 .our-yachts-title {
     color: var(--color-light);
     text-align: center;
@@ -17,11 +16,13 @@
 }
 
 .item-hero-our {
+    max-width: 334px;
     background-color: var(--color-light);
     border-radius: 24px;
 }
 
 .yacht-our-container-img {
+    min-width: 302px;
     margin-top: 16px;
     margin-left: 16px;
     margin-right: 16px;
@@ -40,6 +41,7 @@
 .describe-title {
     color: var(--color-dark-green);
     line-height: 1.2;
+    font-size: 14px;
     letter-spacing: -0.045em;
     text-transform: uppercase;
 }
@@ -54,7 +56,8 @@
 }
 
 .describe-text {
-    font-size: 13px;
+    flex-shrink: 0;
+    font-size: 12px;
     line-height: 1.18;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -76,7 +79,7 @@
     content: '';
     width: 272px;
     height: 1px;
-    top: -16px;
+    top: -32px;
     background-color: var(--line-color);
 }
 
@@ -149,13 +152,9 @@
 
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 768px;
-        padding: 0 32px;
-    }
+        min-width: 768px;
+        } 
 
-    .yacht-our-container-img{
-        width: 320px;
-    }
 
     .our-yachts-title {
         font-size: 48px;
@@ -167,8 +166,31 @@
         flex-direction: row;
     }
 
+    .item-hero-our {
+        max-width: 336px;
+    }
+    .yacht-our-container-img {
+    min-width: 304px;
+    }
+
+
+    .title-box {
+        gap: 12px;
+    }
+
+    .describe-title {
+        font-size: 16px;
+
+    }
+
+    .describe-text {
+        font-size: 13px;
+
+    }
+
     .hero-item-one {
-        display: inline;
+        display: flex;
+        flex-direction: column;
     }
 
     .hero-item-two {
@@ -178,8 +200,8 @@
 
 @media screen and (min-width: 1280px) {
     .container {
-        max-width: 1280px;
-        padding: 0 50px;
+        min-width: 1280px;
+        
     }
 
     .list-our {
@@ -187,10 +209,26 @@
         flex-direction: row;
     }
 
+    .item-hero-our {
+        max-width: 377px;
+    }
+
     .hero-item-two {
         display: inline;
     }
 
+    .yacht-our-container-img {
+    min-width: 345px;
+}
 
+
+    .our-yachts-title {
+        margin-left: auto;
+        margin-right: auto;
+        width: 714px;
+        font-size: 48px;
+
+
+    }
 
 }
