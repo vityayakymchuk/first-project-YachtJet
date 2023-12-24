@@ -1,38 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap"
-      rel="stylesheet"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>YachtJet</title>
-    
-    <script type="module" crossorigin src="/first-project-YachtJet/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/first-project-YachtJet/assets/index-05ec1d91.css">
-  </head>
-  <body>
-    <header class="header"></header>
 
-    <main>
-      <section class="section-hero"></section>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YachtJet</title>
+  
+  <script type="module" crossorigin src="/first-project-YachtJet/commonHelpers.js"></script>
+  <link rel="stylesheet" href="/first-project-YachtJet/assets/index-01cef416.css">
+</head>
 
-      <section class="section-about-us"></section>
+<body>
+  <header class="header container">
+    <div class="header-container">
+        <nav class="header-navigation">
 
-      <section class="section-our-yachts"></section>
+            <a class="logo link" href="">yachtjet</a>
 
-      <section>
+
+            <ul class="header-menu list">
+                <li class="header-menu-item">
+                    <a class="header-menu-link selected link" href="#about">About</a>
+                </li>
+                <li class="header-menu-item">
+                    <a class="header-menu-link link" href="#yachts">Yachts</a>
+                </li>
+                <li class="header-menu-item">
+                    <a class="header-menu-link link" href="#reviews">Reviews</a>
+                </li>
+            </ul>
+        </nav>
+
+        <ul class="header-menu-icon list">
+            <li class="header-menu-item-icon">
+                <a class="header-link-icon link" href="https://www.instagram.com/goitclub/" target="_blank">
+                    <svg class="mobile-social-icon-wrapper" width="24" height="24" aria-label="instagram icon link">
+                        <use href="../img/sprite.svg#icon-instagram"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="header-menu-item-icon">
+                <a class="header-link-icon link" href="https://www.youtube.com/c/GoIT" target="_blank">
+                    <svg class="mobile-social-icon-wrapper" width="24" height="24" aria-label="youtube icon link">
+                        <use href="../img/sprite.svg#icon-youtube"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="header-menu-item-icon">
+                <a class="header-link-icon link" href="https://www.facebook.com/goITclub/" target="_blank">
+                    <svg class="mobile-social-icon-wrapper" width="24" height="24" aria-label="facebook icon link">
+                        <use href="../img/sprite.svg#icon-facebook"></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+
+        <button class="burger" type="button">
+            <svg class="rrr" width="28" height="28" aria-label="menu">
+                <use href="../img/sprite.svg#icon-burger"></use>
+            </svg>
+        </button>
+    </div>
+</header>
+  <main>
+    <section class="section-hero"></section>
+
+    <section class="section-about-us"></section>
+
+    <section class="section-our-yachts"></section>
+
+    <section>
   <div class="container section-advantages">
     <h2 class="visually-hidden">Advantages</h2>
     <ol class="advantages-list">
@@ -84,15 +128,70 @@
   </div>
 </section>
 
-      <section class="section-rent"></section>
+    <section class="section-rent"></section>
 
-      <section class="reviews"></section>
+    <section class="reviews"></section>
 
-    </main>
-    <footer class="footer"></footer>
+  </main>
+  <footer class="footer"></footer>
 
-    
+  <!--========================= Backdrop =========================-->
+<div class="mobile-menu-wrapper">
+    <div class="mobile-container-menu container">
 
-    
-  </body>
+        <div class="mobile-top">
+            <a class="logo link" href="">yachtjet</a>
+            <button class="close-btn-backdrop" type="button">
+                <svg width="28" height="28" aria-label="close button menu">
+                    <use href="../img/sprite.svg#icon-close"></use>
+                </svg>
+            </button>
+        </div>
+
+
+        <nav class="mobile-navigation-wrapper">
+            <ul class="header-menu-wrapper list">
+                <li class="header-menu-item">
+                    <a class="header-menu-link selected link" href="#about">About</a>
+                </li>
+                <li class="header-menu-item">
+                    <a class="header-menu-link link" href="#yachts">Yachts</a>
+                </li>
+                <li class="header-menu-item">
+                    <a class="header-menu-link link" href="#reviews">Reviews</a>
+                </li>
+            </ul>
+        </nav>
+
+
+        <ul class="header-menu-icon-wrapper list">
+            <li class="header-menu-item-icon">
+                <a class="header-link-icon-wrapper link" href="https://www.instagram.com/goitclub/" target="_blank">
+                    <svg class="mobile-social-icon-wrapper" width="24" height="24" aria-label="instagram icon link">
+                        <use href="../img/sprite.svg#icon-instagram"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="header-menu-item-icon">
+                <a class="header-link-icon-wrapper link" href="https://www.youtube.com/c/GoIT" target="_blank">
+                    <svg class="mobile-social-icon-wrapper" width="24" height="24" aria-label="youtube icon link">
+                        <use href="../img/sprite.svg#icon-youtube"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="header-menu-item-icon">
+                <a class="header-link-icon-wrapper link" href="https://www.facebook.com/goITclub/" target="_blank">
+                    <svg class="mobile-social-icon-wrapper" width="24" height="24" aria-label="facebook icon link">
+                        <use href="../img/sprite.svg#icon-facebook"></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--========================= /Backdrop =========================-->
+
+  
+</body>
+
 </html>
