@@ -88,6 +88,11 @@
   .reviews-item-second {
     display: flex;
   }
+
+  .reviews-item-second .avatar-paragraf {
+    width: 296px;
+  }
+
   .reviews-item {
     width: calc(100% - 32px / 2);
   }
@@ -133,6 +138,15 @@
   }
   .reviews-item {
     max-width: calc(100% - 52px / 3);
+  }
+  .avatar-paragraf {
+    max-width: 320px;
+  }
+  .reviews-item-second .avatar-paragraf {
+    width: 319px;
+  }
+  .reviews-item-third .avatar-paragraf {
+    width: 293px;
   }
 }
 /*------------------/DESKTOP REVIEWS STYLE---------------*/
