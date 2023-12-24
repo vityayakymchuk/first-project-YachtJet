@@ -13,7 +13,8 @@ p:last-child {
   margin-bottom: 0;
 }
 
-ul {
+ul,
+ol {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -37,6 +38,7 @@ img {
   max-width: 100%;
   height: auto;
 }
+
 input {
   font-family: inherit;
 }
@@ -48,6 +50,7 @@ input {
 .list {
   list-style-type: none;
 }
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -60,6 +63,7 @@ input {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 body {
   color: var(--text-color);
   text-align: center;

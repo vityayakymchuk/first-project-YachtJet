@@ -6,4 +6,12 @@
   --text-color: rgba(4, 3, 6, 0.4);
   --color-gray:rgba(251, 251, 251, 0.40);
   --color-white-gray: rgba(251, 251, 251, 0.8);
+  --line-color: rgba(4, 3, 6, 0.1);
+  --border-color: rgba(251, 251, 251, 0.35);
+  --stroke-burger: #2F2F37;
+  --header-menu-link: rgba(27, 65, 75, 0.50);
+  --header-menu-link-hover: #062730;
+  --backdrop-hover-social-link: rgba(251, 251, 251, 0.8);
+  --color-lines: #fbfbfb1a;
 }
+
