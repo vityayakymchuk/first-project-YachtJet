@@ -1,0 +1,237 @@
+.our-yachts-title {
+    color: var(--color-light);
+    text-align: center;
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    margin-top: auto;
+    margin-top: 75px;
+    margin-bottom: 40px;
+}
+
+.list-our {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.item-hero-our {
+    min-width: 334px;
+    background-color: var(--color-light);
+    border-radius: 24px;
+}
+
+.yacht-our-container-img {
+    max-width: 375px;
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 33px;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.title-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 32px;
+    margin-bottom: 32px;
+    align-items: baseline;
+}
+
+.describe-title {
+    color: var(--color-dark-green);
+    line-height: 1.2;
+    font-size: 14px;
+    letter-spacing: -0.045em;
+    text-transform: uppercase;
+}
+
+.format-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 1.2;
+    letter-spacing: -0.045em;
+    text-transform: uppercase;
+}
+
+.describe-text {
+    flex-shrink: 0;
+    font-size: 12px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    
+}
+
+.describe-box {
+    display: inline-flex;
+    position: relative;
+    align-items: flex-start;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 114px;
+}
+
+.describe-box::before {
+    position: absolute;
+    content: '';
+    width: 272px;
+    height: 1px;
+    top: -32px;
+    background-color: var(--line-color);
+}
+
+.describe-list-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+}
+
+.list-left-item {
+    font-size: 14px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.describe-list-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 6px;
+}
+
+.list-right-item {
+    color: var(--color-dark);
+    font-size: 14px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+}
+
+.yacht-rental-link {
+    display: inline-flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 14px 32px;
+    border-radius: 15px;
+    border: 1px solid var(--border-color);
+    color: var(--color-light);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    text-align: center;
+    background-color: var(--color-light-dark);
+    margin-top: 40px;
+    width: auto;
+    height: 46px;
+}
+
+.yacht-rental-link:hover,
+.yacht-rental-link:focus {
+    color: var(--color-dark-green);
+    background-color: var(--color-light);
+
+}
+
+.hero-item-one {
+    display: none;
+}
+
+.hero-item-two {
+    display: none;
+
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+    .container {
+        min-width: 768px;
+        } 
+
+
+    .our-yachts-title {
+        font-size: 48px;
+        margin-bottom: 75px;
+    }
+
+    .list-our {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .item-hero-our {
+        max-width: 336px;
+    }
+    .yacht-our-container-img {
+    min-width: 304px;
+    }
+
+
+    .title-box {
+        gap: 12px;
+    }
+
+    .describe-title {
+        font-size: 16px;
+
+    }
+
+    .describe-text {
+        font-size: 13px;
+
+    }
+
+    .hero-item-one {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-item-two {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        min-width: 1280px;
+        
+    }
+
+    .list-our {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .item-hero-our {
+        max-width: 377px;
+    }
+
+    .hero-item-two {
+        display: inline;
+    }
+
+    .yacht-our-container-img {
+    min-width: 345px;
+}
+
+
+    .our-yachts-title {
+        margin-left: auto;
+        margin-right: auto;
+        width: 714px;
+        font-size: 48px;
+
+
+    }
+
+}
