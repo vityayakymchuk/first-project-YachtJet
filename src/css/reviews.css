@@ -134,7 +134,6 @@
   }
   .reviews-groupe-item {
     gap: 26px;
-    justify-content: ;
   }
   .reviews-item {
     max-width: calc(100% - 52px / 3);
