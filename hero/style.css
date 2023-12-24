@@ -1,0 +1,252 @@
+/*! RULES TAG*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+button {
+    cursor: pointer;
+}
+
+/*MOBILE*/
+
+/*hero-section*/
+
+@media screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx),
+screen and (min-device-pixel-ratio: 2) {
+    .hero {
+        background-image: linear-gradient(359deg,
+            rgba(17, 19, 31, 0.80) 42.62%,
+            rgba(17, 19, 31, 0.31) 84.12%,
+            rgba(17, 19, 31, 0.00) 99.94%),
+            url(../images/hero-yacht-mob.jpg);
+    }
+}
+.hero{
+    max-width: 375px;
+    height: 812px;
+    background-color: #0E1823;
+    background-image: linear-gradient(359deg,
+    rgba(17, 19, 31, 0.80) 42.62%,
+    rgba(17, 19, 31, 0.31) 84.12%,
+    rgba(17, 19, 31, 0.00) 99.94%),
+    url(../images/hero-yacht-mob.jpg);
+    background-repeat: no-repeat;
+    background-size: 375px 812px;
+}
+.container-hero{  
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 335px;
+}
+.main-title{
+    color: #FBFBFB;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.64px;
+    height: 86px;
+    padding-top: 260px;
+    padding-bottom: 110px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    text-transform: capitalize;
+}
+.text-hero{
+    color: rgba(251, 251, 251, 0.70);
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 14px;
+    margin-top: 24px;
+    height: 56px;
+    width: 335px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 38px;
+    width: 335px;
+}
+.order-servis{
+width: 141px;
+height: 46px;
+color: #FBFBFB;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: -0.28px;
+margin-top: 38px;
+display: flex;
+padding: 14px 32px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 15px;
+background: #1B414B;
+margin-left: 97px;
+}
+
+
+
+/*TABLET-HERO-SECTION*/
+@media screen and (min-width: 768px) {
+    .container-hero {
+        width: 704px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 15px;
+        padding: 280px 32px 382px 32px;
+        display: block;
+        flex-direction: column;
+        align-items: center;
+        gap: 48px;
+    }
+
+    .hero{
+    max-width: 768px;
+    height: 962px;
+    flex-shrink: 0;
+    background-color: #0E1823;
+    background-image: linear-gradient(359deg,
+        rgba(17, 19, 31, 0.80) 42.62%,
+        rgba(17, 19, 31, 0.31) 84.12%,
+        rgba(17, 19, 31, 0.00) 99.94%),
+        url(../images/hero-yacht-tabb.jpg);
+        background-repeat: no-repeat;
+        background-size: 768px 962px;
+    }
+    @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+     .hero {
+         background-image: linear-gradient(359deg,
+                    rgba(17, 19, 31, 0.80) 42.62%,
+                    rgba(17, 19, 31, 0.31) 84.12%,
+                    rgba(17, 19, 31, 0.00) 99.94%),
+                url(../images/hero-yacht-tabb.jpg);
+     }
+    }
+
+    .main-title{
+    color: #FBFBFB;
+    text-align: center;
+    font-family: Inter;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 70px;
+    letter-spacing: -1.4px;
+
+    }
+    .text-hero{
+    color: rgba(251, 251, 251, 0.70);
+    text-align: center;
+    font-size: 16px;
+    line-height: 140%;
+    width: 597px;
+    height: 66px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 24px;
+    }
+    .order-servis{
+    font-size: 18px;
+    line-height: 110%;
+    letter-spacing: -0.36px;
+    margin-left: 262.5px;
+    border-radius: 15px;
+    background: #1B414B;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 48px;
+    padding: 16px 40px;
+    }
+}
+
+/*LAPTOP*/
+   @media screen and (min-width: 1280px){
+    .container-hero {
+        width: 1001px;
+        margin: 235px 139px 215px 140px;
+    }
+    .hero{
+        width: 1280px;
+        height: 800px;
+        flex-shrink: 0;
+        background-image: #0E1823;
+        background-image: linear-gradient(359deg,
+            rgba(17, 19, 31, 0.80) 42.62%,
+            rgba(17, 19, 31, 0.31) 84.12%,
+            rgba(17, 19, 31, 0.00) 99.94%),
+                url(../images/hero-yacht-lap.jpg);
+            background-repeat: no-repeat;
+            background-size: 1280px 800px; ;
+        }
+    @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+     .hero {
+        background-image: linear-gradient(359deg,
+            rgba(17, 19, 31, 0.80) 42.62%,
+            rgba(17, 19, 31, 0.31) 84.12%,
+            rgba(17, 19, 31, 0.00) 99.94%),
+            url(../images/hero-yacht-lap.jpg);
+            }      
+    
+}
+}
+/*DECTOP*/
+    @media screen and (min-width: 1280px) {
+    .container-hero {
+        width: 1001px;
+        margin: 235px 220px 215px 219px;
+    }
+    .hero{
+        background-image: linear-gradient(359deg,
+                    rgba(17, 19, 31, 0.80) 42.62%,
+                    rgba(17, 19, 31, 0.31) 84.12%,
+                    rgba(17, 19, 31, 0.00) 99.94%),
+                url(../images/hero-yacht-des.jpg);
+    }
+    @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+        .hero {
+            background-image: linear-gradient(359deg,
+                rgba(17, 19, 31, 0.80) 42.62%,
+                rgba(17, 19, 31, 0.31) 84.12%,
+                rgba(17, 19, 31, 0.00) 99.94%),
+                url(../images/hero-yacht-des.jpg);
+            }
+    }
+ }
