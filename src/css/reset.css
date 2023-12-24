@@ -37,6 +37,7 @@ img {
   max-width: 100%;
   height: auto;
 }
+
 input {
   font-family: inherit;
 }
@@ -48,6 +49,7 @@ input {
 .list {
   list-style-type: none;
 }
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -60,6 +62,7 @@ input {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 body {
   color: var(--text-color);
   text-align: center;
@@ -67,5 +70,5 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  border-color: var(--color-light-dark);
+  background-color: var(--color-light-dark);
 }
