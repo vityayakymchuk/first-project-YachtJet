@@ -67,5 +67,5 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  border-color: var(--color-light-dark);
+  background-color: #0e1823; 
 }
