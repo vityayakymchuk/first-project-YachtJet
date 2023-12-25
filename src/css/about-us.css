@@ -52,6 +52,7 @@
   overflow: hidden;
   flex-shrink: 0;
   transform: translateY(-85%);
+  margin-bottom: -85%;
 }
 
 /* =======TABLET STYLES======== */
@@ -59,6 +60,7 @@
 @media screen and (min-width: 768px) {
   .section-about-us {
     max-width: 768px;
+    margin-bottom: 394px;
   }
 
   .text-content-section-about-us {
@@ -95,6 +97,7 @@
 
   .about-us-img {
     transform: translateY(-52%);
+    margin-bottom: -52%;
   }
 }
 
@@ -105,15 +108,17 @@
     justify-content: center;
     align-items: flex-start;
     max-width: 100%;
+    margin-bottom: 734px;
   }
 
   .text-content-section-about-us {
     display: flex;
     flex-direction: row;
-    max-width: 100%;
+    width: 1180px;
   }
 
   .about-us-img {
-    transform: translateY(-82%);
+    transform: translateY(-83%);
+    margin-bottom: -83%;
   }
 }
