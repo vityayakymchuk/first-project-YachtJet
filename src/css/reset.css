@@ -64,6 +64,10 @@ input {
   overflow: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: var(--text-color);
   text-align: center;
@@ -71,5 +75,4 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  background-color: var(--color-light-dark);
 }

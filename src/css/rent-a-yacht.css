@@ -1,3 +1,6 @@
+.section-rent {
+  margin-bottom: 80px;
+}
 .rent-title {
   color: var(--color-light);
   font-size: 28px;
@@ -103,6 +106,10 @@
 
 /* =============TABLET=========== */
 @media screen and (min-width: 768px) {
+  .section-rent {
+    margin-bottom: 150px;
+  }
+
   .rent-title {
     font-size: 48px;
     line-height: 1;
@@ -147,6 +154,10 @@
 
 /* =============DESKTOP=========== */
 @media screen and (min-width: 1280px) {
+  .section-rent {
+    margin-bottom: 152px;
+  }
+
   .block {
     display: flex;
     flex-direction: row-reverse;

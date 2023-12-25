@@ -1,0 +1,133 @@
+.section-hero {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 233px;
+}
+
+body {
+  background-color: var(--color-light-dark);
+  background-position: center top;
+  background-size: contain;
+  background-image: linear-gradient(var(--gradient)),
+    url('../img/hero/hero-mobile@1x.jpg');
+  background-repeat: no-repeat;
+}
+@media screen and (min-resolution: 192dpi) and (min-width: 320px),
+  screen and (min-resolution: 2dppx) and (min-width: 320px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 320px) {
+  .body {
+    background-image: linear-gradient(var(--gradient)),
+      url('../img/hero/hero-mobile@2x.jpg');
+  }
+}
+
+.hero-title {
+  max-width: 335px;
+  color: var(--color-light);
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.hero-text {
+  color: var(--color-text-hero);
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.17;
+  margin-top: 24px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.hero-button {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 15px;
+  background: var(--color-dark-green);
+  min-width: 141px;
+  height: 46px;
+  color: var(--color-light);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  border: none;
+  padding: 14px 32px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 38px;
+}
+
+.hero-button:focus,
+.hero-button:hover {
+  color: var(--color-dark-green);
+  background: var(--color-light);
+  outline: 0px solid transparent;
+}
+
+/* =======TABLET STYLES======== */
+
+@media screen and (min-width: 768px) {
+  .section-hero {
+    max-width: 768px;
+    flex-shrink: 0;
+    margin-bottom: 205px;
+  }
+
+  .hero-title {
+    max-width: 704px;
+    color: #fbfbfb;
+    text-align: center;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+
+  .hero-text {
+    max-width: 597px;
+    font-size: 16px;
+    line-height: 140%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-button {
+    padding: 16px 40px;
+    min-width: 179px;
+    height: 52px;
+    justify-content: center;
+    margin-top: 48px;
+  }
+}
+
+/* ===========DESKTOP STYLES========= */
+
+@media screen and (min-width: 1280px) {
+  .section-hero {
+    max-width: 1280px;
+    flex-shrink: 0;
+    margin-bottom: 170px;
+  }
+
+  .hero-title {
+    max-width: 1001px;
+    height: 160px;
+    margin-left: 140px;
+  }
+}

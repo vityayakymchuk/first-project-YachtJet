@@ -1,3 +1,6 @@
+.our-yachts {
+  margin-bottom: 80px;
+}
 .our-yachts-title {
   color: var(--color-light);
   text-align: center;
@@ -150,6 +153,9 @@
 @media screen and (min-width: 768px) {
   .container {
     min-width: 768px;
+  }
+  .our-yachts {
+    margin-bottom: 150px;
   }
 
   .our-yachts-title {

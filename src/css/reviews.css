@@ -7,8 +7,7 @@
 
 .reviews {
   display: block;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 80px;
   background-color: var(--color-light-dark);
 }
 .content-reviews-first {
@@ -97,8 +96,8 @@
     width: calc(100% - 32px / 2);
   }
   .reviews {
-    padding-top: 75px;
-    padding-bottom: 75px;
+    margin-bottom: 150px;
+    padding-bottom: 0;
   }
   .content-reviews-first {
     max-width: 704px;

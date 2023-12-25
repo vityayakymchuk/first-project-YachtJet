@@ -15,4 +15,6 @@
   --color-lines: #fbfbfb1a;
   --input-border: rgba(251, 251, 251, 0.2);
   --input-border-focus: rgba(251, 251, 251, 0.5);
+  --gradient: rgba(17, 19, 31, 1), rgba(17, 19, 31, 0.39), rgba(17, 19, 31, 0);
+  --color-text-hero: color: rgba(251, 251, 251, 0.70);
 }
