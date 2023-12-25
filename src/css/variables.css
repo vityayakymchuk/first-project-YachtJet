@@ -13,4 +13,6 @@
   --header-menu-link-hover: #062730;
   --backdrop-hover-social-link: rgba(251, 251, 251, 0.8);
   --color-lines: #fbfbfb1a;
+  --input-border: rgba(251, 251, 251, 0.2);
+  --input-border-focus: rgba(251, 251, 251, 0.5);
 }

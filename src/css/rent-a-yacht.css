@@ -1,203 +1,166 @@
+.rent-title {
+  color: var(--color-light);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  margin-bottom: 40px;
+}
 
-@media screen and (min-width: 320px) {
+.rent-form {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 375px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-bottom: 80px;
+}
 
-  
+.rent-input {
+  color: var(--color-light);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.17;
+  padding-left: 18px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-radius: 12px;
+  border: 1px solid var(--input-border);
+  width: 100%;
+  height: 42px;
+  background-color: transparent;
+  outline: 0px solid transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
-  
-  .rent-text {
-    color: var(--color-light);
-    font-size: 28px;
-    font-weight: 500;
-    line-height: -1;
-    letter-spacing: 0.02em;
-    margin-bottom: 40px;
+.rent-input::placeholder {
+  color: var(--color-gray);
+}
+
+.rent-input:hover,
+.rent-input:focus {
+  border-color: var(--input-border-focus);
+}
+
+.comment {
+  color: var(--color-light);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.17;
+  padding-left: 18px;
+  padding-top: 14px;
+  width: 100%;
+  height: 108px;
+  border-radius: 12px;
+  border: 1px solid var(--input-border);
+  resize: none;
+  background-color: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  outline: 0px solid transparent;
+}
+
+.comment::placeholder {
+  color: var(--color-gray);
+}
+
+.comment:hover,
+.comment:focus {
+  border-color: var(--input-border-focus);
+}
+
+.rent-submit-btn {
+  border: none;
+  width: 122px;
+  height: 46px;
+  border-radius: 15px;
+  background-color: var(--color-dark-green);
+  color: var(--color-light);
+  padding: 14px 44px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  margin-top: 20px;
+}
+
+.rent-submit-btn:hover,
+.rent-submit-btn:focus {
+  background-color: var(--color-light);
+  color: var(--color-dark-green);
+  outline: 0px solid transparent;
+}
+.rent-img {
+  max-width: 335px;
+  height: 412px;
+  border-radius: 24px;
+  overflow: hidden;
+}
+.rent-img img {
+  width: 100%;
+  height: 100%;
+}
+
+/* =============TABLET=========== */
+@media screen and (min-width: 768px) {
+  .rent-title {
+    font-size: 48px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    margin-bottom: 50px;
   }
-  
+
   .rent-form {
     margin-right: auto;
     margin-left: auto;
-    max-width: 375px;
+    max-width: 472px;
     display: flex;
     flex-direction: column;
     gap: 18px;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
   }
-  
   .rent-input {
-    color: rgba(251, 251, 251, 0.4);
-    font-size: 12px;
-    font-weight: 400;
-    line-height: -1.16;
-    padding-left: 18px;
-    border-radius: 12px;
-    border: 1px solid rgba(251, 251, 251, 0.2);
-    width: 100%;
-    height: 42px;
-    background-color: transparent;
-    outline: 0px solid transparent;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  
-  .rent-input::placeholder {
-    color: rgba(251, 251, 251, 0.4);
-  }
-   
-  .rent-input:hover::placeholder,
-  .rent-input:focus::placeholder {
-    color: #fff;
-  }
-  
-  .rent-input:hover,
-  .rent-input:focus {
-    border-color: #fbfbfb;
-  }
-  
-  .comment {
-    padding-left: 18px;
-    padding-top: 14px;
-    width: 100%;
-    height: 108px;
-    border-radius: 12px;
-    border: 1px solid rgba(251, 251, 251, 0.2);
-    resize: none;
-    background-color: transparent;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    outline: 0px solid transparent;
-  }
-  
-  .comment:hover::placeholder,
-  .comment:focus::placeholder {
-    color: #fbfbfb;
-  }
-  
-  .comment:hover,
-  .comment:focus {
-    border-color: #fbfbfb;
-  }
-  
-  .rent-submit-btn {
-    border: none;
-    width: 122px;
-    height: 46px;
-    border-radius: 15px;
-    background-color: #1b414b;
-    color: #fbfbfb;
-    padding: 14 44;
     font-size: 14px;
-    font-weight: 500;
-    line-height: 1.3;
-    letter-spacing: 0.2em;
+    line-height: 1.29;
   }
-  
-  .rent-submit-btn:hover,
-  .rent-submit-btn:focus {
-    background-color: #fbfbfb;
-    color: #1b414b;
-    outline: 0px solid transparent;
+
+  .comment {
+    font-size: 14px;
+    line-height: 1.29;
   }
-  .rent-img{
-max-width: 335px;
-height: 412px;
-border-radius: 24px;
-overflow: hidden;
+
+  .rent-submit-btn {
+    font-size: 18px;
+    width: 194px;
+    height: 56px;
+    padding: 18px 75px;
+    line-height: 1.1;
+    margin-top: 30px;
   }
-.rent-img img {
-width: 100%;
-height: 100%;
+  .rent-img {
+    max-width: 704px;
+    height: 534px;
+  }
 }
+
+/* =============TABLET=========== */
+
+/* =============DESKTOP=========== */
+@media screen and (min-width: 1280px) {
+  .block {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  .rent-form {
+    width: 472px;
+  }
+  .rent-title {
+    text-align: left;
+  }
+
+  .rent-img {
+    max-width: 658px;
+  }
 }
- 
-  
-  /* img {
-    max-width: 100%;
-    height: 412px;
-    border-radius: 24px;
-    overflow: hidden;
-  } */
-  
-  /* =============TABLET=========== */
-  @media screen and (min-width: 768px) {
-    .container {
-      width: 768px;
-      padding-left: 32px;
-      padding-right: 32px;
-    }
-  
-    /* img {
-      max-width: 100%;
-      height: 534px;
-      border-radius: 24px;
-      overflow: hidden;
-    } */
-  
-    .rent-form {
-      margin-right: auto;
-      margin-left: auto;
-      max-width: 473px;
-      display: flex;
-      flex-direction: column;
-      gap: 18px;
-      margin-bottom: 100px;
-    }
-  
-    .rent-text {
-      color: var(--color-light);
-      font-size: 48px;
-      font-weight: 500;
-      line-height: 1;
-      letter-spacing: 0.02em;
-      margin-bottom: 40px;
-    }
-  
-    .rent-submit-btn {
-      width: 194px;
-      height: 56px;
-      border-radius: 15px;
-      padding: 18 75;
-      line-height: 1.4;
-    }
-  
-  }
-  
-  /* =============TABLET=========== */
-  
-  /* =============DESKTOP=========== */
-  @media screen and (min-width: 1280px) {
-    .container {
-      width: 1280px;
-      padding-left: 50px;
-      padding-right: 50px;
-    }
-  
-    /* img {
-      width: 100%;
-      height: 100%;
-      border-radius: 24px;
-      overflow: hidden;
-    } */
-  
-    .rent-form {
-      margin-right: auto;
-      margin-left: auto;
-      max-width: 473px;
-      display: flex;
-      flex-direction: column;
-      gap: 18px;
-      margin-bottom: 100px;
-    }
-  
-    .block {
-      display: flex;
-      flex-direction: row-reverse;
-    }
-  
-    .rent-submit-btn {
-      width: 194px;
-      height: 56px;
-      border-radius: 15px;
-      padding: 18 75;
-      line-height: 1.4;
-    }
-  
-  }
-  /* =============DESKTOP=========== */
+/* =============DESKTOP=========== */
