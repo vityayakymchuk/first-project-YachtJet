@@ -1,0 +1,119 @@
+.section-about-us {
+  display: flex;
+  flex-direction: column;
+  color: var(--color-dark-green);
+  flex-shrink: 0;
+  align-items: flex-start;
+  gap: 40px;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.text-content-section-about-us {
+  background-color: var(--color-light);
+  height: 675px;
+  border-radius: 24px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.about-us-title {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.text-top {
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.text-bottom {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  opacity: 0.4;
+}
+
+.about-us-img {
+  border-radius: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  transform: translateY(-85%);
+}
+
+/* =======TABLET STYLES======== */
+
+@media screen and (min-width: 768px) {
+  .section-about-us {
+    max-width: 768px;
+  }
+
+  .text-content-section-about-us {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .about-us-title {
+    width: 536px;
+    margin-left: 32px;
+    margin-right: 136px;
+    font-size: 48px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+
+  .text-top {
+    width: 389px;
+    margin-left: 32px;
+    margin-top: 50px;
+    font-size: 23px;
+    letter-spacing: -0.02em;
+  }
+
+  .text-bottom {
+    width: 385px;
+    margin-top: 20px;
+    margin-left: 32px;
+    font-size: 13px;
+    line-height: 115%;
+    letter-spacing: -0.02em;
+  }
+
+  .about-us-img {
+    transform: translateY(-52%);
+  }
+}
+
+/* ===========DESKTOP STYLES========= */
+@media screen and (min-width: 1280px) {
+  .section-about-us {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+
+  .text-content-section-about-us {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+  }
+
+  .about-us-img {
+    transform: translateY(-82%);
+  }
+}
