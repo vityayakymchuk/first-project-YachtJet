@@ -11,7 +11,6 @@ body {
   min-width: 100%;
   background-color: var(--color-light-dark);
   background-position: center top;
-  background-size: cover;
   background: linear-gradient(
       359deg,
       rgba(17, 19, 31, 0.8) 42.62%,
@@ -21,6 +20,7 @@ body {
     url('../img/hero/hero-mobile@1x.jpg'),
     var(--color-light-dark) -363.632px -322.699px / 294.966% 170.401%;
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 @media screen and (min-resolution: 192dpi) and (min-width: 320px),
@@ -102,7 +102,6 @@ body {
   body {
     background-color: var(--color-light-dark);
     background-position: center top;
-    background-size: contain;
     background: linear-gradient(
         359deg,
         rgba(17, 19, 31, 0.8) 42.62%,
@@ -112,6 +111,7 @@ body {
       url('../img/hero/hero-tablet@1x.jpg'),
       var(--color-light-dark) -341px -430.796px / 188.802% 188.546%;
     background-repeat: no-repeat;
+    background-size: contain;
   }
   @media screen and (min-resolution: 192dpi) and (min-width: 320px),
     screen and (min-resolution: 2dppx) and (min-width: 320px),
