@@ -34,7 +34,7 @@
 .footer-nav-item-cont {
   border-radius: 8px;
   background: var(--color-gray);
-  width: 66px;
+  max-width: 66px;
   height: 40px;
 }
 
