@@ -125,10 +125,7 @@
   .reviews-item-third {
     display: flex;
   }
-  .reviews {
-    padding-top: 76px;
-  }
-  .content-reviews-first {
+  tent-reviews-first {
     max-width: 854px;
   }
   .reviews-groupe-item {
